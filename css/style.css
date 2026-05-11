@@ -76,6 +76,10 @@ p {
     margin-bottom: 80px;
 }
 
+.m-inline {
+    margin-inline: 24px;
+}
+
 .sub-tittle {
     margin-bottom: 40px;
     font-family: "Noto Serif JP", serif;
@@ -392,7 +396,7 @@ footer {
 
 
 /*about-sub*/
-#about-sub , #service-sub , #works-sub , #works01 {
+#about-sub , #service-sub , #works-sub {
     padding-top: 200px;
     margin-bottom: 80px;
 }
@@ -530,7 +534,8 @@ footer {
 .works-item-wrapper {
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 200px;
+    margin-bottom: 80px;
     padding-inline: 40px;
 }
 
@@ -689,6 +694,10 @@ dd {
     margin-bottom: 32px;
 }
 
+.background-mv {
+    height: 60vh;
+}
+
 #about , #service , #works , #contact  {
     padding: 42px 0px;
 }
@@ -720,6 +729,16 @@ dd {
     padding-top: 150px;
 }
 
+.link {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.coconala , .mail {
+    width: 250px;
+}
+
 footer {
     height: 140px;
     background-color: #9FC3DE;
@@ -729,8 +748,12 @@ footer {
     margin-top: 60px;
 }
 
+.button img {
+    width: 80px;
+}
+
 /* about-sub */
-#about-sub , #service-sub , #works-sub , .works-item-wrapper {
+#about-sub , #service-sub , #works-sub {
     padding-top: 120px;
     margin-bottom: 40px;
 }
@@ -743,7 +766,23 @@ footer {
     margin-bottom: 40px;
 }
 
+.underline {
+    width: 100%;
+}
+
 /* service-sub */
+.service-left , .service-right {
+    margin-inline: 0;
+}
+
+.service-flex {
+    flex-direction: column;
+}
+
+.p-size {
+    font-size: 14px;
+}
+
 .container {
     max-width: 700px;
 }
@@ -793,6 +832,12 @@ dt {
 
 dd {
     margin-left: 0;
+}
+
+.works-item-wrapper {
+    padding-top: 80px;
+    margin-bottom: 40px;
+    margin-top: 0;
 }
 
 }
