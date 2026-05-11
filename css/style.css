@@ -748,6 +748,11 @@ footer {
     margin-top: 60px;
 }
 
+.button {
+    right: 16px;
+    bottom: 16px;
+}
+
 .button img {
     width: 80px;
 }
