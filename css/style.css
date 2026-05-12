@@ -428,7 +428,7 @@ footer {
     margin-top: 12px;
 }
 
-.service-left , .service-right {
+.service-left-box , .service-right-box {
     width: 100%;
 }
 
@@ -780,16 +780,8 @@ footer {
 }
 
 /* service-sub */
-.service-left , .service-right {
-    margin-inline: 0;
-}
-
 .service-flex {
     flex-direction: column;
-}
-
-.service-right {
-    margin-right: auto;
 }
 
 .p-size {
