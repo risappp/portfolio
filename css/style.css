@@ -412,7 +412,7 @@ footer {
 }
 
 .underline {
-    width: 500px;
+    width: 100%;
     border-bottom: solid 1px #4C2B08;
     margin-block: 24px;
 }
@@ -426,6 +426,10 @@ footer {
 .service-flex {
     display: flex;
     margin-top: 12px;
+}
+
+.service-left , .service-right {
+    width: 100%;
 }
 
 .border {
@@ -782,6 +786,10 @@ footer {
 
 .service-flex {
     flex-direction: column;
+}
+
+.service-right {
+    margin-right: auto;
 }
 
 .p-size {
